@@ -1,26 +1,53 @@
 <a href="https://github.com/recruiting-gains/ai-builds-showcase">
-  <img
-    src="https://raw.githubusercontent.com/recruiting-gains/recruiting-gains/main/assets/ai-builds-showcase.webp"
-    alt="AI Builds Showcase — a miniature build lab representing six working projects designed to make complicated work clearer and easier to use"
-    width="100%"
-  >
+  <img src="./assets/cruz-terminal.svg" width="1200" alt="Cruz Garza — an AI-stylized portrait from my photo and an animated ASCII name. Explore the AI Builds Showcase.">
 </a>
 
-# Practical AI builds for everyday problems
+# Hi, I'm Cruz Garza.
 
-I turn useful ideas into working tools that make complicated tasks clearer and easier to use.
+**AI builder · Visual experiments · Practical tools**
 
-**Six working projects. Six different problems. One build → test → improve process.**
+I turn ideas into things you can actually try—from interactive 3D experiences to tools that make everyday tasks clearer. I build with AI, test what comes out, and keep improving the parts that matter.
 
-[**Explore the AI Builds Showcase →**](https://github.com/recruiting-gains/ai-builds-showcase)
+[**Explore my showcase ↗**](https://github.com/recruiting-gains/ai-builds-showcase#live-builds) · [**Browse the source ↗**](https://github.com/recruiting-gains/ai-builds-showcase)
 
-[**Try the newest live build: Mask Before You Ask →**](https://mask-before-you-ask.recruiting-gains.workers.dev/)
+## `~/selected-builds`
 
-## What you will find
+### HYPERCUBE
 
-- Simple interfaces made for everyday people—not just technical or heavy AI users
-- Complete working experiments with a frontend, backend, tests, documentation, and a live deployment
-- Clear privacy boundaries, honest limitations, and room for human judgment
-- An ongoing build → test → debug → deploy → learn process
+Explore a glowing four-dimensional cube through an interactive projection. Adapted from Tarek Sherif's Tesseract Explorer; geometry runs in your browser.
 
-Every project is an independent, original experiment. Start with the **[AI Builds Showcase](https://github.com/recruiting-gains/ai-builds-showcase)** to see the source, visuals, plain-English explanations, and live tools.
+[Live ↗](https://cruz-hypercube.cg-stackd.chatgpt.site/) · [Source](https://github.com/recruiting-gains/ai-builds-showcase/tree/main/hypercube)
+
+### Airframe
+
+Move panels with hand gestures—or use mouse, touch, and keyboard. Hand tracking stays on your device and controls this website only.
+
+[Live ↗](https://airframe.recruiting-gains.workers.dev/) · [Source](https://github.com/recruiting-gains/ai-builds-showcase/tree/main/airframe)
+
+### LoopLab
+
+Compare two AI instructions on the same examples and inspect the results before choosing a change.
+
+[Live ↗](https://looplab.recruiting-gains.workers.dev/) · [Source](https://github.com/recruiting-gains/ai-builds-showcase/tree/main/looplab)
+
+### Mask Before You Ask
+
+Replace common private details in text before sharing it with AI. Review the result before sharing—detection is not a guarantee.
+
+[Live ↗](https://mask-before-you-ask.recruiting-gains.workers.dev/) · [Source](https://github.com/recruiting-gains/ai-builds-showcase/tree/main/mask-before-you-ask)
+
+## `~/how-i-build`
+
+Understand → build → test → improve.
+
+- **Visual interfaces:** interactive 3D, clear controls, and explanations people can follow.
+- **AI workflows:** useful inputs and outputs, comparisons, and human review.
+- **Practical engineering:** source code, tests, documentation, and honest limits.
+
+My showcase includes original experiments and credited open-source adaptations. Project pages explain what each build does, what was tested, and where its limits are.
+
+## `~/activity`
+
+GitHub's contribution graph reflects the activity visible under my profile settings.
+
+<sub>Independent projects · AI-assisted development · Built, tested, and iterated in public.</sub>
