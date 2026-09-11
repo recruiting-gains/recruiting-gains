@@ -12,11 +12,11 @@ I turn ideas into things you can actually try—from interactive 3D experiences 
 
 ## `~/activity`
 
-<a href="https://github.com/recruiting-gains#contributions">
+<a href="https://github.com/recruiting-gains#js-contribution-activity-description">
   <img src="https://ghchart.rshah.org/39d353/recruiting-gains" width="900" alt="Green contribution calendar for recruiting-gains over the past year. Open GitHub for current activity and daily details.">
 </a>
 
-<sub>GitHub contributions over the past year · Daily snapshot · [View activity ↗](https://github.com/recruiting-gains#contributions)</sub>
+<sub>GitHub contributions over the past year · Daily snapshot · [View activity ↗](https://github.com/recruiting-gains#js-contribution-activity-description)</sub>
 
 ## `~/selected-builds`
 
