@@ -1,5 +1,5 @@
 <a href="https://github.com/recruiting-gains/ai-builds-showcase">
-  <img src="./assets/cruz-terminal.svg" width="1200" alt="Cruz G. — an AI-stylized portrait from my photo and an animated ASCII name. Explore the AI Builds Showcase.">
+  <img src="https://raw.githubusercontent.com/recruiting-gains/recruiting-gains/bdf860729301e717a7349e6c14c9a727af412ccc/assets/cruz-terminal.svg" width="1200" alt="Cruz G. — an AI-stylized portrait from my photo and an animated ASCII name. Explore the AI Builds Showcase.">
 </a>
 
 # Hi, I'm Cruz G.

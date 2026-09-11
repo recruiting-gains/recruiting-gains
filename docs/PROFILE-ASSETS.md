@@ -8,6 +8,8 @@ The styling follows the general idea of a terminal portrait/name layout, not ano
 
 Run `node scripts/build-profile.mjs` from this repository. It uses Node's built-in modules and the checked-in portrait PNG. No dependencies, API keys, network requests, credentials, scheduled jobs, or model calls are required to rebuild the SVG.
 
+The README references the banner at an immutable commit to prevent a cached older name from appearing. After changing the banner, publish the generated SVG and update the README image URL to that commit.
+
 Run `node --test scripts/profile.test.mjs` for static asset, accessibility, and copy checks. These checks do not replace viewing the actual profile on desktop and mobile.
 
 The banner contains no scripts, external images, analytics, or live status claims. Its animation ends after a short entrance, with a reduced-motion alternative and a descriptive accessible title. Profile links and text are ordinary Markdown. GitHub's native contribution graph remains the source of truth for activity. The README also embeds a green calendar from [GitHub Chart API](https://github.com/2016rshah/githubchart-api), using only the public username. This third-party image reflects contributions visible on the public profile and is cached for up to 24 hours by the provider; GitHub's image proxy may add delay. No private-repository access, tokens, or scheduled commits are used. The image and caption link to GitHub's native calendar for current details; contributions are not a count of completed builds.
