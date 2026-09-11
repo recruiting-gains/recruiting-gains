@@ -1,14 +1,22 @@
 <a href="https://github.com/recruiting-gains/ai-builds-showcase">
-  <img src="./assets/cruz-terminal.svg" width="1200" alt="Cruz Garza — an AI-stylized portrait from my photo and an animated ASCII name. Explore the AI Builds Showcase.">
+  <img src="./assets/cruz-terminal.svg" width="1200" alt="Cruz G. — an AI-stylized portrait from my photo and an animated ASCII name. Explore the AI Builds Showcase.">
 </a>
 
-# Hi, I'm Cruz Garza.
+# Hi, I'm Cruz G.
 
 **AI builder · Visual experiments · Practical tools**
 
 I turn ideas into things you can actually try—from interactive 3D experiences to tools that make everyday tasks clearer. I build with AI, test what comes out, and keep improving the parts that matter.
 
 [**Explore my showcase ↗**](https://github.com/recruiting-gains/ai-builds-showcase#live-builds) · [**Browse the source ↗**](https://github.com/recruiting-gains/ai-builds-showcase)
+
+## `~/activity`
+
+<a href="https://github.com/recruiting-gains#contributions">
+  <img src="https://ghchart.rshah.org/39d353/recruiting-gains" width="900" alt="Green contribution calendar for recruiting-gains over the past year. Open GitHub for current activity and daily details.">
+</a>
+
+<sub>GitHub contributions over the past year · Daily snapshot · [View activity ↗](https://github.com/recruiting-gains#contributions)</sub>
 
 ## `~/selected-builds`
 
@@ -45,9 +53,5 @@ Understand → build → test → improve.
 - **Practical engineering:** source code, tests, documentation, and honest limits.
 
 My showcase includes original experiments and credited open-source adaptations. Project pages explain what each build does, what was tested, and where its limits are.
-
-## `~/activity`
-
-GitHub's contribution graph reflects the activity visible under my profile settings.
 
 <sub>Independent projects · AI-assisted development · Built, tested, and iterated in public.</sub>

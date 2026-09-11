@@ -9,7 +9,7 @@ const shapes = {
   U: ['11011','11011','11011','11011','11011','11011','01110'],
   Z: ['11111','00011','00110','00100','01100','11000','11111'],
   G: ['01111','11000','11000','11011','11011','11011','01111'],
-  A: ['01110','11011','11011','11111','11011','11011','11011'],
+  '.': ['00000','00000','00000','00000','00000','11000','11000'],
 };
 function word(text, x, y, cell, delay) {
   return [...text].map((letter, index) => {
@@ -25,7 +25,7 @@ function word(text, x, y, cell, delay) {
   }).join('');
 }
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
-<title id="title">Cruz Garza — AI builder, visual experiments, practical tools</title>
+<title id="title">Cruz G. — AI builder, visual experiments, practical tools</title>
 <desc id="desc">A terminal-style profile with an AI-stylized portrait based on Cruz's supplied photo, animated ASCII lettering, and a build-test-improve workflow. This artwork does not display live status or contribution statistics.</desc>
 <defs><clipPath id="portraitClip"><rect x="46" y="143" width="374" height="422" rx="8"/></clipPath><linearGradient id="edge"><stop stop-color="#62e6bd"/><stop offset="1" stop-color="#54b9f2"/></linearGradient></defs>
 <style>
@@ -54,7 +54,10 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 <text x="49" y="578" font-size="11" fill="#70869e">OWNER-SUPPLIED PHOTO · AI-STYLIZED</text>
 <text x="489" y="170" font-size="15" fill="#65dfb9">$ introducing</text>
 ${word('CRUZ',508,204,25,.12)}
-${word('GARZA',508,405,20,.6)}
+${word('G.',508,405,20,.6)}
+<text x="795" y="439" fill="#65dfb9" font-size="22">AI BUILDER</text>
+<text x="795" y="477" fill="#b2c3d9" font-size="16">visual experiments</text>
+<text x="795" y="508" fill="#b2c3d9" font-size="16">practical tools</text>
 <rect class="sweep" x="488" y="203" width="650" height="3" fill="url(#edge)" opacity="0"/>
 <path d="M491 382H1137" stroke="#21364b"/>
 <text x="493" y="574" fill="#8ba7bf" font-size="13">turning ideas into things you can try</text>

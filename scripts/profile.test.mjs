@@ -16,16 +16,17 @@ test('banner is self-contained, script-free, and uses the checked-in portrait', 
 });
 
 test('artwork has an accessible description and reduced-motion alternative', () => {
-  assert.match(svg, /<title id="title">Cruz Garza/);
+  assert.match(svg, /<title id="title">Cruz G\./);
   assert.match(svg, /prefers-reduced-motion:reduce/);
-  assert.match(readme, /alt="Cruz Garza[^"\n]*AI-stylized/);
+  assert.match(readme, /alt="Cruz G\.[^"\n]*AI-stylized/);
   assert.doesNotMatch(svg, /infinite/);
 });
 
 test('public copy preserves attribution and avoids stale project counts', () => {
   assert.match(readme, /Adapted from Tarek Sherif/);
   assert.match(readme, /detection is not a guarantee/);
-  assert.match(readme, /activity visible under my profile settings/);
+  assert.match(readme, /GitHub contributions over the past year/);
+  assert.match(readme, /https:\/\/ghchart\.rshah\.org\/39d353\/recruiting-gains/);
   assert.doesNotMatch(readme, /Six working projects|Every project is an independent, original/);
   assert.doesNotMatch(readme + svg, /\/Users\/|\/tmp\/|@icloud|@yahoo|@gmail|student/i);
 });
