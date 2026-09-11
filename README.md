@@ -20,6 +20,12 @@ I turn ideas into things you can actually try—from interactive 3D experiences 
 
 ## `~/selected-builds`
 
+### Jedi Mindtrick
+
+A camera playground: fade into your room, shape a moving window with your hands, and explore eleven color effects. Live tracking stays on your device; an optional AI still is a separate action. Open it on your phone or computer.
+
+[Live ↗](https://jedi-mindtrick.recruiting-gains.workers.dev/) · [Source & phone setup](https://github.com/recruiting-gains/ai-builds-showcase/tree/codex/jedi-mindtrick/jedi-mindtrick)
+
 ### HYPERCUBE
 
 Explore a glowing four-dimensional cube through an interactive projection. Adapted from Tarek Sherif's Tesseract Explorer; geometry runs in your browser.
