@@ -25,8 +25,9 @@ test('artwork has an accessible description and reduced-motion alternative', () 
 test('public copy preserves attribution and avoids stale project counts', () => {
   assert.match(readme, /Adapted from Tarek Sherif/);
   assert.match(readme, /detection is not a guarantee/);
-  assert.match(readme, /GitHub contributions over the past year/);
-  assert.match(readme, /https:\/\/ghchart\.rshah\.org\/39d353\/recruiting-gains/);
+  assert.match(readme, /Decorative profile artwork—not contribution data/);
+  assert.match(readme, /assets\/hire-me\.svg/);
+  assert.match(readme, /Real GitHub activity/);
   assert.doesNotMatch(readme, /Six working projects|Every project is an independent, original/);
   assert.doesNotMatch(readme + svg, /\/Users\/|\/tmp\/|@icloud|@yahoo|@gmail|student/i);
 });
@@ -35,6 +36,7 @@ test('selected builds all include live and source links', () => {
   for (const name of ['hypercube', 'airframe', 'looplab', 'mask-before-you-ask']) {
     assert.ok(readme.includes(`/tree/main/${name}`));
   }
-  assert.equal((readme.match(/\[Live ↗\]/g) || []).length, 4);
+  assert.equal((readme.match(/\[Live ↗\]/g) || []).length, 5);
+  assert.match(readme, /jedi-mindtrick\/jedi-mindtrick/);
   assert.ok(readFileSync(resolve(root, 'assets/ai-builds-showcase.webp')).length > 0);
 });

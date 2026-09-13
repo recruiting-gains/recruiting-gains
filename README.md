@@ -10,13 +10,13 @@ I turn ideas into things you can actually try—from interactive 3D experiences 
 
 [**Explore my showcase ↗**](https://github.com/recruiting-gains/ai-builds-showcase#live-builds) · [**Browse the source ↗**](https://github.com/recruiting-gains/ai-builds-showcase)
 
-## `~/activity`
+## `~/hire-me`
 
 <a href="https://github.com/recruiting-gains#js-contribution-activity-description">
-  <img src="https://ghchart.rshah.org/39d353/recruiting-gains" width="900" alt="Green contribution calendar for recruiting-gains over the past year. Open GitHub for current activity and daily details.">
+  <img src="assets/hire-me.svg" width="1000" alt="HIRE ME — recruiting-gains. Decorative green pixel artwork, not actual GitHub contribution data.">
 </a>
 
-<sub>GitHub contributions over the past year · Daily snapshot · [View activity ↗](https://github.com/recruiting-gains#js-contribution-activity-description)</sub>
+<sub>Decorative profile artwork—not contribution data · [Real GitHub activity ↗](https://github.com/recruiting-gains#js-contribution-activity-description) · Font: [Commit Font / Studio 4by5](https://github.com/shivam230/commit-art)</sub>
 
 ## `~/selected-builds`
 
